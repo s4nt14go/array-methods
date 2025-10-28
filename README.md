@@ -39,7 +39,10 @@ Credits: [Axel Rauschmayer](https://gist.github.com/rauschma/6cdeb4af7586aa03bae
 | array before | method (links to MDN)                                                                                                    | return value | array after |
 |---|--------------------------------------------------------------------------------------------------------------------------|---|---|
 |<sup>["🟦","🟡","🔺"]</sup>| [.slice(1, 3)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)             |<sup>["🟡","🔺"]</sup>|<sup>["🟦","🟡","🔺"]</sup>|
+||.splice(start, deleteCount)|||
 |<sup>["🟦","🟡","🔺"]</sup>| [.splice(1, 2)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)           |<sup>["🟡","🔺"]</sup>|<sup>["🟦"]</sup>|
+||.splice(start, deleteCount, insertItem)|||
+|<sup>["🟦","🟡"]</sup>| [.splice(1, 0, "🔺")](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)           |<sup>[]</sup>|<sup>["🟦","🔺","🟡"]</sup>|
 |<sup>["🟦","🟡","🟦"]</sup>| [.filter( x => x==="🟦")](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) |<sup>["🟦","🟦"]</sup>|<sup>["🟦","🟡","🟦"]</sup>|
 |<sup>["🟦","🟡"]</sup>| [.map( x => x+x )](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)           |<sup>["🟦🟦", "🟡🟡"]</sup>|<sup>["🟦","🟡"]</sup>|
 |<sup>["🟦","🟡"]</sup>| [.map( x => [x+x] )](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)         |<sup>[["🟦🟦"], ["🟡🟡"]]</sup>|<sup>["🟦","🟡"]</sup>|
